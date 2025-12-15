@@ -6,7 +6,7 @@
   "card": "https://statehigh.hackclub.com/card.png",
   "meeting": {
     "month": "Sept",
-    "day": 19
+    "day": 26
   },
   "urls": {
     "slack": "https://hackclub.com/slack_invite",
@@ -41,7 +41,7 @@
       "children": "itopia"
     },
     {
-      "href": "https://tinyurl.com/hc-attendance",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLScbNzDHOHMihLaJZp7GExIguqFdegtZPVKdNDLt-SdezsLrvQ/viewform?usp=dialog",
       "children": "Attendance Form"
     },
     {
