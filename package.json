@@ -9,6 +9,9 @@
     "dev": "gatsby develop",
     "fmt": "prettier --no-semi --single-quote --write \"src/**/*.js\""
   },
+  "engines": {
+  "node": "16.x"
+  },
   "dependencies": {
     "@hackclub/banner": "^1.0.1",
     "@hackclub/design-system": "^0.0.1-13",
