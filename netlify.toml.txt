@@ -1,0 +1,21 @@
+# netlify.toml - configuration for Gatsby site
+
+[build]
+  # The command to build your Gatsby site
+  command = "yarn build"
+  # The folder Netlify should deploy
+  publish = "public"
+
+[build.environment]
+  # Use Node 16 to avoid crypto errors
+  NODE_VERSION = "16"
+
+# Optional: make Yarn the package manager
+[context.production.environment]
+  YARN_VERSION = "1.22.22"
+
+# Optional: support client-side routing in Gatsby (SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
