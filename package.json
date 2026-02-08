@@ -10,7 +10,7 @@
     "fmt": "prettier --no-semi --single-quote --write \"src/**/*.js\""
   },
   "engines": {
-  "node": "16.x"
+  "node": "24.x"
   },
   "dependencies": {
     "@hackclub/banner": "^1.0.1",
