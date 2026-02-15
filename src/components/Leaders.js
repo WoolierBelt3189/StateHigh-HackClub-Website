@@ -32,7 +32,9 @@ const EmailButton = styled(Button)`
   font-weight: 500;
 `
 const username = a => a.split(' ')[0].toLowerCase()
+
 const Leader = ({ name, pronouns, email, ...props }) => (
+ 
   <Flex align="center" style={{margin: "auto"}} >
     <Avatar src={`/team/${username(name)}.jpg`} alt={name} size={128} mr={3} />
     <Box align="center">
