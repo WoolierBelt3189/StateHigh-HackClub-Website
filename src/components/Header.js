@@ -15,7 +15,7 @@ const Header = () => (
   <Box align="center" py={5}>
     <Link href="https://hackclub.com">
       <Image
-        src="/logo-primary.svg"
+        src="/logo-primary.png"
         width={256}
         mx="auto"
         alt="State High Hack Club logo"
